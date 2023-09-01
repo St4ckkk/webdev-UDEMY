@@ -1,0 +1,47 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.score {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.score h2 {
+  margin: 0;
+}
+
+.choices {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.choices button {
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+}
+#ROCK {
+  background-color: gray;
+  color: white;
+}
+#SCISSORS {
+  background-color: red;
+  color: white;
+}
+
+.result {
+  text-align: center;
+}
+
+.result p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 0;
+}
+.rps {
+  text-align: center;
+}
